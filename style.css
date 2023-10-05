@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.btn-appointment{
+    border-radius: 30px;
+    transition: .3s;
+}
+.btn-appointment a:hover{
+    background-color: white;
+    color: black;
+    
+}
+.nav-link{
+    font-family: 'Merriweather', serif;
+}
+.nav-link:hover{
+    color: #ffc107;
+}
+.dropdown-item{
+  font-family: 'Merriweather', serif;  
+}
+.navbar-brand{
+    margin-right: 200px;
+
+}
+.list-inline-item{
+  font-family: 'Merriweather', serif;   
+}
+.list-inline-item a{
+    text-decoration: none;
+    color: white;
+}
+.list-inline-item a:hover{
+    color: #ffc107;
+}
+.hero-image{
+    border-radius: 20px;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 30px;
+}
+.hero-text{
+   font-family: 'Merriweather', serif;  
+   line-height: 40px; 
+}
+.btn-explore{
+    background-color: #ffc107;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+     text-decoration: none;
+     transition: .3s;
+     font-family: 'Merriweather', serif; 
+     font-size: 20px;
+}
+.btn-explore:hover{
+background-color: #f2d068;
+}
+.card{
+    width: 20rem;
+    border: 2px solid #ffc107;
+    border-radius: 20px;
+}
+.card-img-top{
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    border-radius: 30px;
+
+}
+.card-title{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card-text{
+     font-family: 'Merriweather', serif;
+     font-size: 17px;
+}
+.sub-header{
+    font-family: 'Merriweather', serif;
+     font-size: 20px; 
+}
+.section-img{
+    border-radius: 50%;
+}
+.section-text{
+    ;
+    font-family: 'Merriweather', serif;
+     font-size: 17px;
+}
+.section-header{
+    font-family: 'Merriweather', serif;
+   font-size: 20px; 
+   
+}
+.cta{
+   
+}
+.btn-appointment2{
+    background-color: #ffc107;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+     text-decoration: none;
+     transition: .3s;
+     font-family: 'Merriweather', serif; 
+     font-size: 20px;
+}
+.footer-ul a{
+text-decoration: none;
+}
