@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.btn-login{
+        padding: 10px 20px;
+        background-color: #ffc107;
+        border-radius: 30px;
+        color: white;
+        font-family: 'Merriweather', serif;
+        border: none;
+      }
+.section-header{
+    font-family: 'Merriweather', serif;
+   font-size: 25px; 
+   
+}
+.section-text{
+    font-family: 'Merriweather', serif;
+     font-size: 17px;
+}
