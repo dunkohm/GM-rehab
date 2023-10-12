@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GM rehab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style >
+      .form-label{
+        font-family: 'Merriweather', serif;
+      }
+      .section-img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    float: center;
+}
+.cta{
+  font-family: 'Merriweather', serif; 
+  font-size: 20px;
+  padding: 50px;
+}
+.footer-ul a{
+text-decoration: none;
+ font-family: 'Merriweather', serif; 
+ transition: .3s;
+}
+.footer-ul li{
+  list-style: none;
+}
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="container-fluid p-0 m-0 text-center">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary bg-gradient">
+  <div class="container-fluid p-0 m-0">
+    <a class="navbar-brand text-light  p-2 " href="index.html">GM Rehab</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-3 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item dropdown mx-4">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About GM Rehab
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="about.html">About us</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="mission.html">Mission and Vision Statement</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Insurance Accepted</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="profile.html">Company Profile</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item mx-4">
+          <a class="nav-link text-light" href="services.html">
+            Services
+          </a>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link text-light " href="#" >Patient Portal</a>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link btn-appointment bg-warning shadow text-center" href="#" >Make an Appointment</a>
+        </li>
+        <li class="nav-item justify-content-end">
+          <a class="nav-link text-light" href="#" ><i class="bi bi-person-circle text-warning" style="height: 18px;"></i>&nbsp; My GM account</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="navbar-nav bg-secondary text-center">
+  <ul class="list-inline text-light my-auto p-2">
+    <li class="list-inline-item"><a href="services.html" >Services </a>|</li>
+    <li class="list-inline-item"><a href="about.html" >About us </a>|</li>
+    <li class="list-inline-item"><a href="#" >Contact us </a>|</li>
+    <li class="list-inline-item"><a href="#" ><i class="bi bi-telephone-fill"></i>+1234567890 &nbsp;</a>Make an appointment</li>
+  </ul>
+</div>
+
+<div class="container-fluid">
+  <nav aria-label="breadcrumb"class="">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Make appointment</li>
+  </ol>
+</nav>
+  <hr>
+  <div class="d-flex justify-content-center mt-2">
+    <!-- header -->
+    <div class="header text-primary">Make an appointment with us.</div>
+  </div>
+  <div class="">
+    <div class="row mt-4 p-2">
+      <!-- image -->
+      <div class="col-md-6 mb-3">
+        <img src="Assets/appoint.jpg" class="img-fluid">
+      </div>
+      <!-- form -->
+      <div class="col-md-6">
+        <div class="">
+          <h3 class="section-header text-primary">Book appointment</h3>
+          <p class="section-text">Now you can get an online appointment.We will get back to you and fix a meeting with our specialists.</p>
+          <form class="">
+            <div class="mb-3">
+              <label for="select" class="form-label">Choose preferred service</label>
+                  <select class="form-select" aria-label="Default select example" id="select">
+                      <option selected>Choose service</option>
+                      <option value="1">Physical Therapy</option>
+                      <option value="2">Occupational Therapy</option>
+                      <option value="3">Speech Therapy</option>
+                   </select>
+            </div>
+            <div class="mb-3 form-group">
+              <label for="date" class="form-label">Date of appointment</label>
+              <input type="date" name="date" id="date" class="form-control">
+            </div>
+            <div class="mb-3 form-group">
+              <label for="time" class="form-label">Time</label>
+              <input type="text" name="time" id="time" class="form-control w-50 mx-auto" placeholder="Enter preferred time">
+            </div>
+            <div class="mb-3 form-group">
+              <label for="name" class="form-label"></label>
+              <input type="text" name="fname" id="name" class="form-control" placeholder="Enter your full name">
+            </div>
+            <div class="mb-3 form-group">
+              <label for="contact" class="form-label"></label>
+              <input type="text" name="contact" id="contact" class="form-control" placeholder="Enter your contact number">
+            </div>
+            <div class="mb-3">
+               <label for="exampleFormControlTextarea1" class="form-label"></label>
+               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
+            </div>
+            <div class="mb-3">
+             <a href="" class="btn-explore">Make Appointment</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- footer -->
+<div class="container-fluid footer bg-primary  bg-gradient w-100">
+  <div class="row d-flex justify-content-center">
+    <div class="col">
+      <a class="header text-light  p-2 " href="index.html" style="text-decoration: none;">GM Rehabilitation </a>
+       <h4 class="text-warning text-center sub-header mt-4">Connect With us</h4>
+       <div class="d-flex justify-content-evenly mt-4">
+        <a href="#"><i class="bi bi-facebook fs-2 text-warning"></i></a>
+        <a href="#"><i class="bi bi-instagram fs-2 text-warning"></i></a>
+        <a href="#"><i class="bi bi-linkedin fs-2 text-warning"></i></a>
+       </div>
+       <h4 class="text-warning text-center sub-header mt-4"><i class="bi bi-telephone-fill fs-2"></i> Call us +1234567890</h4>
+    </div>
+    <div class="col">
+      <h4 class="text-warning text-center sub-header mt-4">Quick links</h4>
+      <ul class="footer-ul">
+        <li><a href="#" class="text-light nav-link">Pay My Bills</a></li>
+         <li><a href="#"class="text-light nav-link">Patient Portal</a></li>
+          <li><a href="#"class="text-light nav-link">Careers</a></li>
+           <li><a href="#"class="text-light nav-link">Reviews and Testimonies</a></li>
+            <li><a href="appointment.html"class="text-light nav-link">Make an appointment</a></li>
+    </ul>
+    </div>
+    <div class="col">
+      <h4 class="text-warning text-center sub-header mt-4">About Us</h4>
+      <ul class="footer-ul">
+        <li><a href="mission.html" class="text-light nav-link">Mission and Vision</a></li>
+         <li><a href="#"class="text-light nav-link">Insurance accepted</a></li>
+          <li><a href="services.html"class="text-light nav-link">Services</a></li>
+           <li><a href="#"class="text-light nav-link">Privacy Policy</a></li>
+            <li><a href="#"class="text-light nav-link">Terms of service</a></li>
+    </ul>
+    </div>
+    <p class="section-text text-light">&copy; 2023 GM Rehab Services LLC. All Rights Reserved.</p>
+  </div>
+</div>
+</div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
